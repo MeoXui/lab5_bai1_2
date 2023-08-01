@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/trang_chu" />
+    <item
+        android:id="@+id/nav_bookmark"
+        android:icon="@drawable/baseline_bookmark_24"
+        android:title="@string/dau_trang"/>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/khac">
+            <menu>
+                <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@drawable/baseline_settings_24"
+                    android:title="@string/cai_dat"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/baseline_logout_24"
+                    android:title="@string/dang_xuat"/>
+            </menu>
+        </item>
+    </group>
+</menu>

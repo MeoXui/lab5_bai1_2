@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">lab5_bai1_2</string>
+    <string name="trang_chu">Trang chủ</string>
+    <string name="dau_trang">Dấu trang</string>
+    <string name="open">Open\n</string>
+    <string name="close">Close</string>
+    <string name="khac">Khác</string>
+    <string name="cai_dat">Cài đặt</string>
+    <string name="dang_xuat">Đăng xuất</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
